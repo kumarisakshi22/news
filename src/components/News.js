@@ -65,7 +65,7 @@ handlePreviousClick=async()=>{
     render() {
         return (
             <div className='container my-3'>
-                <h1>DailySose - Top Headlines</h1>
+                <h1>DailyDose - Top Headlines</h1>
                 <div className="row">
                 {this.state.articles.map((element)=>{
                     return <div key={element.url}  className="col-md-4">
